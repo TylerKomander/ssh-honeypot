@@ -1,0 +1,10 @@
+{"event":"listener_start","timestamp":"2026-06-15T22:40:13.023670+00:00","host":"0.0.0.0","port":2222}
+{"event":"connection","timestamp":"2026-06-15T22:41:02.118402+00:00","session_id":"5a7e817bdf1b","src_ip":"45.143.200.14","src_port":58602,"client_banner":"SSH-2.0-libssh2_1.10.0"}
+{"event":"auth_attempt","timestamp":"2026-06-15T22:41:02.119880+00:00","session_id":"5a7e817bdf1b","src_ip":"45.143.200.14","src_port":58602,"method":"password","username":"root","password":"123456"}
+{"event":"auth_attempt","timestamp":"2026-06-15T22:41:02.461145+00:00","session_id":"5a7e817bdf1b","src_ip":"45.143.200.14","src_port":58602,"method":"password","username":"root","password":"admin"}
+{"event":"auth_attempt","timestamp":"2026-06-15T22:41:02.802391+00:00","session_id":"5a7e817bdf1b","src_ip":"45.143.200.14","src_port":58602,"method":"password","username":"root","password":"root"}
+{"event":"connection","timestamp":"2026-06-15T23:07:55.341220+00:00","session_id":"c41f9a02e8b7","src_ip":"194.0.234.37","src_port":40118,"client_banner":"SSH-2.0-Go"}
+{"event":"auth_attempt","timestamp":"2026-06-15T23:07:55.342901+00:00","session_id":"c41f9a02e8b7","src_ip":"194.0.234.37","src_port":40118,"method":"password","username":"admin","password":"P@ssw0rd"}
+{"event":"auth_attempt","timestamp":"2026-06-15T23:07:55.690004+00:00","session_id":"c41f9a02e8b7","src_ip":"194.0.234.37","src_port":40118,"method":"publickey","username":"admin","key_type":"ssh-rsa","key_fingerprint":"9d3c0a7f2b1e4c6a8f05d2e7b41c93af"}
+{"event":"connection","timestamp":"2026-06-15T23:19:11.004773+00:00","session_id":"7b2e5d18ff90","src_ip":"167.94.138.62","src_port":33274,"client_banner":"SSH-2.0-OpenSSH_8.2p1"}
+{"event":"error","timestamp":"2026-06-15T23:19:11.207558+00:00","session_id":"7b2e5d18ff90","src_ip":"167.94.138.62","src_port":33274,"detail":"EOFError"}

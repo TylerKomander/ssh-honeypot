@@ -1,0 +1,9 @@
+venv/
+logs/
+host.key
+__pycache__/
+*.pyc
+.git/
+README.md
+CONTEXT.md
+github/

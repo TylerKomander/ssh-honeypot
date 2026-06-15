@@ -1,0 +1,20 @@
+services:
+  honeypot:
+    build: .
+    container_name: ssh-honeypot
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:2222:2222"
+    volumes:
+      - ./logs:/data
+    networks:
+      - trap
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+
+networks:
+  trap:
+    driver: bridge
