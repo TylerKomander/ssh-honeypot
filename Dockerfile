@@ -1,4 +1,4 @@
-FROM python:3.12-slim
+FROM python:3.12-slim 
 
 RUN useradd --system --uid 10001 honey
 
@@ -19,3 +19,4 @@ ENV HONEYPOT_HOST=0.0.0.0 \
 EXPOSE 2222
 
 CMD ["python", "honeypot.py"]
+
