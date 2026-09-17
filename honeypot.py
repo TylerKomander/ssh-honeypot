@@ -5,7 +5,6 @@ import threading
 import uuid
 from datetime import datetime, timezone
 from pathlib import Path
-
 import paramiko
 
 HOST = os.environ.get("HONEYPOT_HOST", "0.0.0.0")
@@ -19,7 +18,6 @@ LOG_FILE = LOG_DIR / "honeypot.jsonl"
 HOST_KEY_FILE = Path(os.environ.get("HONEYPOT_HOST_KEY", BASE / "host.key"))
 
 _log_lock = threading.Lock()
-
 
 def now():
     return datetime.now(timezone.utc).isoformat()
