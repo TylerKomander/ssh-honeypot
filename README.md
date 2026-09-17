@@ -88,6 +88,10 @@ is hardened, not incidental:
   execution, so there is nothing to escape *from*.
 - **Private host key is git-ignored** — generated at first run, never committed.
 
+## Requirements
+
+  paramiko>=3.4
+
 ## Deploying it for real
 
 A ready-to-run production config and a step-by-step guide live in [`deploy/`](deploy/):
